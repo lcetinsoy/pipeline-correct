@@ -4,7 +4,11 @@ app = Flask(__name__)
 
 @app.route("/home")
 def hello_world():
-    return "<p>Hello, World!</p>"
+    return """
+        <form id="formulaire">
+           <label>label</label>
+        </form>
+    """
 
 @app.route("/api/customer")
 def get_customer():
