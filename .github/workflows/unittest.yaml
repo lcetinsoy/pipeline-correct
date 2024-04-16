@@ -15,4 +15,4 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v4
       - run: npm install
-      - run: npm cypress
+      - run: npm run cypress
