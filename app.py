@@ -6,7 +6,7 @@ app = Flask(__name__)
 def hello_world():
     return """
         <form id="formulaire">
-           <label>label</label>
+           <label>login</label>
         </form>
     """
 
