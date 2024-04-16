@@ -1,0 +1,14 @@
+{
+  "name": "m1web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "cypress run"
+  },
+  "requireDev":{
+    "cypress":"13.7.3"
+  },
+  "author": "",
+  "license": "ISC"
+}

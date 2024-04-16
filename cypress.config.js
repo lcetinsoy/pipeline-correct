@@ -1,5 +1,5 @@
-
-module.exports = {
+const {defineConfig} = require('cypress')
+module.exports = defineConfig({
        
     e2e: {
             video: false,
@@ -8,4 +8,4 @@ module.exports = {
                 // implement node event listeners here
             },
     }
-}
+})
